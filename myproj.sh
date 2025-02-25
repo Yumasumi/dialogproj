@@ -2,9 +2,9 @@
 DB_USER=`dialog --stdout --inputbox "請輸入資料庫用戶名稱：" 8 40`
 DB_PASS=`dialog --stdout --passwordbox "請輸入資料庫用戶密碼：" 8 40`
 if mysql -u"$DB_USER" -p"$DB_PASS" -e "EXIT" 2>/dev/null; then
-	break  # 連線成功，跳出迴圈
+	break
 else
-	dialog --title "錯誤" --msgbox "無法連接，請檢查帳號或密碼。" 8 40
+	dialog --title "錯誤" --msgbox "無法連接，請檢查名稱或密碼。" 8 40
 fi
 #選擇資料庫
 database=`dialog --stdout --title "選擇資料庫" --menu "請選擇您要查看的資料庫：" 10 50 3 1 "Name" 2 "Note"`
