@@ -1,6 +1,5 @@
 # dialog-proj
 下載後請先執行
-chmod +x myprojsetup.sh
+chmod +x ins_sql.sh
 接著請使用root權限
-sudo ./myprojsetup.sh
-預設的資料庫名稱與密碼皆為admin
+sudo ./ins_sql.sh
