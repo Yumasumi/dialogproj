@@ -1,4 +1,4 @@
-sudo apt update
-sudo apt install mariadb-server -y
-sudo apt install dialog -y
+sudo apt update /dev/tty
+sudo apt install mariadb-server -y /dev/tty
+sudo apt install dialog -y /dev/tty
 ./admin.sh
