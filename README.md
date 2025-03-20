@@ -1,6 +1,6 @@
 很高興您點進來，此為資料庫對話窗的小工具。
 <br>
-設計團隊成員有 YUMA, SHARON, BYRON, KINGSLEY, SEAN。
+設計團隊成員有 Yuma、Sharon、Byron、Kingsley、Sean。
 <br>
 您可以透過指令下載完整程式碼：
 <br>
@@ -41,7 +41,7 @@ sudo apt install mariadb-server
 ./sql.sh
 ```
 
-裡面包含 DB 的 CRUD 操作與新增刪除使用者與管理者
+裡面包含 DB 的 CRUD 操作與新增刪除使用者與管理者。
 <br>
 <br>
-有甚麼問題歡迎在issues上面與我們聯絡
+有甚麼問題歡迎在issues上面與我們聯絡。
